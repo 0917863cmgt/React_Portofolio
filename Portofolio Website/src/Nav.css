@@ -1,0 +1,74 @@
+ /* BAR */
+ #bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow:  0px 1px 0px black;
+ }
+ /* TITLE */
+#title {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-left: 10px;
+}
+ /* BUTTONS */
+ #tabs {
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ #tabs button{
+   border-radius: 0;
+ }
+ /* SOCIALS */
+ #socials {
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 0px;
+    margin-right: 10px;
+ }
+ #socials li {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+ }
+ #socials li:last-child {
+    padding-right: 0;
+ }
+ #socials li img{
+    width: 40px;
+    height: 40px;
+ }
+ #socials li #github:hover{
+    cursor: pointer;
+    filter: drop-shadow(0 0 2em black);
+ }
+ #socials li #linked-in:hover{
+   cursor: pointer;
+   filter: drop-shadow(0 0 2em #0a66c2);
+   position:absolute;
+}
+ /* LANGUAGES */
+ #languages {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0px;
+ }
+ #languages li {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+ }
+ #languages li:last-child {
+    padding-right: 0;
+ }
+ #languages li img{
+    border-radius: 50%;
+    border-color: transparent;
+ }
+ #languages li img:hover{
+    cursor: pointer;
+ }
